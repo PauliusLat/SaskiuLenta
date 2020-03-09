@@ -1,0 +1,23 @@
+.board{
+    display: inline-block;
+    float: left;
+    width: 80vmin;
+    height: 80vmin;
+    margin: 10vmin calc(50% - 40vmin);
+    border: 8px solid red;
+    color: #aaaaaa;
+}
+    .board > .row{
+        display: inline-block;
+        float: left;
+        /* height: 25%; */
+        width: 100%;
+
+    }
+        .board > .row > .cell{
+            display: inline-block;
+            float: left;
+            height: 100%;
+            /* width: 25%; */
+            overflow: hidden;
+        }
